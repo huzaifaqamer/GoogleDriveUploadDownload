@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uploader / Downloader</title>
+</head>
+<body>
+
+<h3>Enter a path in Google Drive</h3>
+
+<form action="{% url 'show_folder_contents' %}">
+  <input type="text" name="folder_path">
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
